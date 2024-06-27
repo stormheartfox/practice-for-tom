@@ -60,4 +60,4 @@
 
 
 # TASK 13: Write an if statement that prints "Your number is lower than 3"
-# if the user gives a number below 3 
+# if the user gives a number LESS THAN 3 
