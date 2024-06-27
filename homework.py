@@ -48,3 +48,16 @@
 # Task 11: Print the return of the multiplication to the command line:
 
 
+
+# Bonus Tasks
+# The following tasks require you to google how to write the code
+# TASK 12: Ask the user for a number & convert their number to an integer
+# Write an IF STATEMENT that prints "Your number is larger than 3" if
+# the user gives a number GREATER THAN 3
+
+
+
+
+
+# TASK 13: Write an if statement that prints "Your number is lower than 3"
+# if the user gives a number below 3 
