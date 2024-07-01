@@ -19,6 +19,7 @@ print(x)
 #bool1
 x = "Michael Velsigne"
 y= "Nowra climbing"
+booleanexample=True
 print(bool(x))
 print(bool(y))
 # Task 3: Print your 3 variables to the command line:
