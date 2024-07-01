@@ -7,6 +7,7 @@ A teaching journey for our lad Tom
 - merging
 - rebase
 - To-do list
+- Palindrome challenge
 - Wordle game
 - calculator app
 - testing frameworks - unittest for python
