@@ -45,9 +45,14 @@ print(doesDiCaprioWantMyDaughter(21))
 # elephant - it's allowed
 # if elephant: what country are you in? if country Thailand then yes else no
 # else any other is not allowed
+def isMyAnimalAPet(animal):
+    if animal == "rabbit":
+        return "you have a pet!"
+    else:
+        return "sorry, no dice!"
 
-
-
+isMyAnimalAPet("rabbit")
+isMyAnimalAPet("tiger")
 
 
 # Conditional loops - lists and objects
