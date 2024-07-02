@@ -1,22 +1,24 @@
-x=True
-## if statements are used to evaluate whether a query is true or false
-if x == True:
-    print("Yes")
-## if else statements are used when a variable can be codified to 2 outcomes
-y=True
-if y != True:
-    print("It's not true")
-else:
-    print("Yes")
+# x=True
+# ## if statements are used to evaluate whether a query is true or false
+# if x == True:
+#     print("Yes")
+# ## if else statements are used when a variable can be codified to 2 outcomes
+# password="kidGorgeous"
+# if password != "":
+#     print("Checking your password")
+#     if password == "kidGorgeous":
+#         print("Welcome!")
+# else:
+#     print("Go home")
 
-z=True
-## elif statements are used when you require more than one if before returning
-if z != True:
-    print("It's not true again")
-elif z == "True":
-    print("It's a string")
-else:
-    print("Then it must be true")
+# z=True
+# ## elif statements are used when you require more than one if before returning
+# if z != True:
+#     print("It's not true again")
+# elif z == "True":
+#     print("It's a string")
+# else:
+#     print("Then it must be true")
 
 # in a function we can exit by taking the values entered
 # and comparing them with one another
@@ -33,11 +35,16 @@ print(doesDiCaprioWantMyDaughter(17))
 print(doesDiCaprioWantMyDaughter(26))
 print(doesDiCaprioWantMyDaughter(21))
 
-
 # Write a function that compares whether an animal can be a pet or not
 # Accept user input of a pet name & compare the string against values in if statements
 # Remember if elif & else - and remember to exit the function on success
 
+# function what animal?
+# if bunny - it's allowed
+# if dog - it's allowed
+# elephant - it's allowed
+# if elephant: what country are you in? if country Thailand then yes else no
+# else any other is not allowed
 
 
 
