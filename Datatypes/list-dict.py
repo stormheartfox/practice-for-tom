@@ -49,3 +49,50 @@ for thing in mySimpleDict:
     print(f"{mySimpleDict.get(thing)} is the value of the key")
 
 print(mySimpleDict.keys()) # retrieves the keys as a list from the dictionary
+
+
+# More examples of dictionaries and lists
+ourAnimal = {
+    "breed": "dalmation",
+    "legs": 4,
+    "disabled": False
+}
+animalShelterAnimals = {
+    "cats": {
+        "cat1": {
+            "breed": "tabby",
+            "legs": 0
+        },
+        "cat2": {
+            "breed": "shorthair",
+            "legs": 2,
+            "wheels": 2
+        }
+        },
+    "dogs": {
+        "dog1": {
+            "breed": "tabby",
+            "legs": 6
+        }
+    },
+    "pigs": {
+        "pig1":{
+            "weight": 500,
+            "measurement": "lbs"
+        }
+    }
+}
+
+for animalType in animalShelterAnimals:
+        print("This is the animal type", animalType)
+
+print(animalShelterAnimals.get("cats").get("cat1"))
+
+animalList = ["rabbit","tiger","snake","elephant", "cat", "dog"]
+
+for animal in animalList:
+    print(animal)
+
+print(animalList[0])
+print(animalList[3])
+print(animalList[-1])
