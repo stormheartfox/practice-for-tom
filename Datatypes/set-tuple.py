@@ -22,7 +22,7 @@ print(tupleVariable[1:3])  # fetch all results from index 1 to but not including
 # Define set
 setVariable = {"Jeff", "Bob", "Alice"}
 myIncorrectSet = {"Jeff", "Jeff", "Bob"}
-print(myIncorrectSet)
+print(f"Jeff is repeated in this set but it only outputs: {myIncorrectSet}")
 # Notice that the output of this print does no display Jeff twice, because it is a repeated value
 
 
@@ -36,5 +36,6 @@ onHoliday = {"Alex", "Brendan"}
 
 # Here we can compare our set data and figure out which
 # of our friends are available
-print(myFriends.difference(onHoliday))
+invitedToTheParty = myFriends.difference(onHoliday)
+print(f"These friends are free: {invitedToTheParty}")
 # Using the .difference() method python returns the difference of our sets
