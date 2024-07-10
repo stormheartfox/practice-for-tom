@@ -6,11 +6,10 @@ This is a personal project aimed at taking a new learner from zero to intermedia
 
 ## include future tasks
 - code review
-- pre-commits
-- merging
-- rebase
+   - broken code fix
 - To-do list
 - Palindrome challenge
-- Wordle game
 - calculator app
+    - interactive calculator that doesn't close until user requests
 - testing frameworks - unittest for python
+   - write tests for basic functions
